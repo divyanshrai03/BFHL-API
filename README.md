@@ -46,8 +46,6 @@ Request Body:
   "data": ["2","a","y","4","&","-","*","5","92","b"]
 }
 📸 Screenshots
-<img width="1898" height="335" alt="image" src="https://github.com/user-attachments/assets/2cb795d6-dbe9-4b8d-8f58-89b4d716828d" />
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/2d3568fc-3a91-4822-9cec-519cd5ef500a" />
 
 Response:
 
