@@ -4,6 +4,13 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.json());
 
+app.get("/bfhl", (req, res) => {
+  res.status(200).json({
+    message: "API is live. Please use POST method with /bfhl"
+  });
+});
+
+// ✅ POST route (main task logic)
 app.post("/bfhl", (req, res) => {
   try {
     const inputArray = req.body.data || [];
@@ -45,9 +52,9 @@ app.post("/bfhl", (req, res) => {
     // final response
     res.status(200).json({
       is_success: true,
-      user_id: "divyansh_rai_08082003",   // ✅ your name + DOB (ddmmyyyy)
-      email: "divyansh.rai2022@vitstudent.ac.in", // ✅ your email
-      roll_number: "22BLC1106",           // ✅ your roll no
+      user_id: "divyansh_rai_08082003",   
+      email: "divyansh.rai2022@vitstudent.ac.in",
+      roll_number: "22BLC1106",
       odd_numbers: odd,
       even_numbers: even,
       alphabets: alphabets,
