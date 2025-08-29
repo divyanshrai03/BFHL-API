@@ -41,7 +41,7 @@ app.post("/bfhl", (req, res) => {
 
     res.status(200).json({
       is_success: true,
-      user_id: "divyansh_rai_ddmmyyyy", // 👈 replace with your actual DOB
+      user_id: "divyansh_rai_08082003", // 👈 replace with your actual DOB
       email: "divyansh.rai2022@vitstudent.ac.in",
       roll_number: "22BLC1106",
       odd_numbers: odd,
