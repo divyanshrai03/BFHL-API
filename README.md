@@ -36,6 +36,11 @@ It processes an input array and returns classification of numbers, alphabets, sp
 👉 [https://bfhl-api-do59.vercel.app/bfhl](https://bfhl-api-do59.vercel.app/bfhl)
 
 ---
+📸 Screenshots
+![Postman Screenshot](images/postman.png)
+![Chrome Screenshot](images/chrome.png)
+Response:
+
 
 ## 📩 API Usage
 
@@ -45,10 +50,6 @@ Request Body:
 {
   "data": ["2","a","y","4","&","-","*","5","92","b"]
 }
-📸 Screenshots
-![Postman Screenshot](images/postman.png)
-![Chrome Screenshot](images/chrome.png)
-Response:
 
 {
   "is_success": true,
