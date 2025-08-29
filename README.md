@@ -46,7 +46,8 @@ Request Body:
   "data": ["2","a","y","4","&","-","*","5","92","b"]
 }
 📸 Screenshots
-
+![Postman Screenshot](images/postman.png)
+![Chrome Screenshot](images/chrome.png)
 Response:
 
 {
